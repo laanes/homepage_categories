@@ -401,4 +401,6 @@ class Homepage_Categories {
 
 $categories = new Homepage_Categories();
 
+var_dump($categories);
+
 ?>
