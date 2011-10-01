@@ -1,0 +1,50 @@
+[33mcommit d267085cb2eb06c9648306ed546ce37c3f165eb2[m
+Author: Aare Laanesaar <woozy014@hotmail.com>
+Date:   Fri Sep 30 23:34:02 2011 +0100
+
+    Opening of a new branch
+
+[1mdiff --git a/classes/amazingClass.php b/classes/amazingClass.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c70093c[m
+[1m--- /dev/null[m
+[1m+++ b/classes/amazingClass.php[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32m<?php[m[41m [m
+[32m+[m[41m[m
+[32m+[m[32mclass AmazingClass {[m[41m[m
+[32m+[m[41m[m
+[32m+[m	[32mpublic $weight;[m[41m[m
+[32m+[m	[32mpublic $weightUnit;[m[41m[m
+[32m+[m	[32mpublic $height;[m[41m[m
+[32m+[m	[32mpublic $weight;[m[41m[m
+[32m+[m[41m	[m
+[32m+[m[32mpublic function __construct() {[m[41m[m
+[32m+[m[41m	[m
+[32m+[m[32m$this->weight = 80;[m[41m[m
+[32m+[m[32m$this->weightUnit = "kg";[m[41m[m
+[32m+[m[32m$this->height = 185;[m[41m[m
+[32m+[m[32m$this->heightUnit = "cm";[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m?>[m
+\ No newline at end of file[m
+[1mdiff --git a/classes/ideas/amazingFeature.php b/classes/ideas/amazingFeature.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0566c60[m
+[1m--- /dev/null[m
+[1m+++ b/classes/ideas/amazingFeature.php[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<?php[m[41m [m
+[32m+[m[41m[m
+[32m+[m[32mclass amazingFeature {[m[41m[m
+[32m+[m[41m	[m
+[32m+[m	[32mpublic static $featureList = array('commenting', 'testing', 'commiting');[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m?>[m
+\ No newline at end of file[m
